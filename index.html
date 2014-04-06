@@ -84,6 +84,14 @@
             .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {  
             border-color: transparent;  
             }
+            .btn[disabled], fieldset[disabled] .btn {  
+                pointer-events: none;  
+                cursor: not-allowed;  
+                opacity: .65;  
+                filter: alpha(opacity=65);  
+                -webkit-box-shadow: none;  
+                box-shadow: none;  
+                }  
                 
           </style>  
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->  
